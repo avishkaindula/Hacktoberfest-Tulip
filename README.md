@@ -8,6 +8,7 @@
 - [What is Hacktoberfest?](#what-is-hacktoberfest)
 - [Project Motivation](#project-motivation)
 - [How Does It Work?](#how-does-it-work)
+- [Installation Procedure](#installation-procedure)
 - [Contribution Guide](#contribution-guide)
 - [License](#license)
 
@@ -35,6 +36,60 @@ Hacktoberfest-Tulip uses a combination of machine learning models, data analysis
 - Compare the information against trusted sources and datasets
 - Assign a credibility score based on various factors
 - Flag suspicious or potentially misleading content for review
+
+## Installation Procedure
+
+To set up the Hacktoberfest-Tulip project on your local machine, follow these steps:
+
+1. **Fork the Repository:** Start by forking this repository to your own GitHub account.
+
+2. **Clone the Forked Repository:** Open your terminal and clone your forked repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/your-username/Hacktoberfest-Tulip.git
+```
+
+3. **Navigate to the Server Directory:** Change your working directory to the server folder:  
+
+```bash
+cd Hacktoberfest-Tulip/server
+```
+
+4. **Install Server Dependencies:** Install the required server dependencies by running:
+
+```bash
+npm install
+```
+
+5. **Start the Server:** Start the server with the following command:
+
+```bash
+npm run dev
+```
+
+Keep it running.
+
+6. **Open Another Terminal:** Open a new terminal window to continue with the client setup.
+
+7. **Navigate to the Client Directory:** Change your working directory to the client folder:
+
+```bash
+cd Hacktoberfest-Tulip/client
+```
+
+8. **Install Client Dependencies:** Install the required client-side dependencies by running:
+
+```bash
+npm install
+```
+
+9. **Start the Client:** Start the client application with the following command:
+
+```bash
+npm start
+```
+
+You've now successfully set up the Hacktoberfest-Tulip project. The server and client applications should be up and running.  
 
 ## Contribution Guide
 
